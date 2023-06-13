@@ -33,7 +33,7 @@ target_modules: q, k, v, down, gate, up
 * 训练策略：
     lora, data distributed parallel
 * 训练设备：
-    a6000 双卡
+    a6000 6卡
 
 * 数据集：
   * 配比：
