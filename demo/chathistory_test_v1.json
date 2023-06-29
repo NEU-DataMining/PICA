@@ -436,4 +436,10 @@
     "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
     "time": "2023-06-29 15:49:40",
     "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nNone\n\n## situation:\nNone\n\n## act:\nNone\n\n## dialog:\n[user]: What day is today?\n[ai]: It's Tuesday.\n[user]: My favorite ball player won the championship!\n[ai]: Who did he play for?\n[user]: LAL\n[ai]: I'm sorry, I don't know what that means.\n[user]: \n[ai]: I'm sorry, I don't know what that means.\n[user]: Los Angeles Lakers\n[ai]: I'm sorry, I don't know what that means.\n[user]: OK\n[ai]: I'm sorry, I don't know what that means.\n"
+}{
+    "name": "Yu Chen",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 15:51:56",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nNone\n\n## situation:\nNone\n\n## act:\nNone\n\n## dialog:\n[user]: Who are you?\n[ai]: I'm your new roommate.\n[user]: what is your sex?\n[ai]: I'm a woman.\n[user]: I do not like women to live with me\n[ai]: Why not?\n[user]: Because I think is not moral\n[ai]: I'm sorry, I didn't mean to offend you.\n[user]: That's OK.\n[ai]: I'm sorry, I didn't mean to offend you.\n"
 }
