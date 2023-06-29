@@ -47,11 +47,14 @@ def train(
     # load data
     dataset = load_dataset(
         'json',
-        data_files=data_path,
-        split = 'train'
+        data_files={
+            'train': data_path,
+            'test' : data_path.replace("train", "test")
+        }
     )
+
     ## get label map
-    label_list = list(set(dataset['output']))
+    label_list = list(set(dataset['train']['output']))
     label2id = {label: i for i, label in enumerate(label_list)}
     id2label = {i:label for i, label in enumerate(label_list)}
 
@@ -76,6 +79,8 @@ def train(
             num_proc = 8,
         )
 
+    dataset, testset = dataset['train'], dataset['test']
+
     if val_set_size > 0:
         val_set_size = int(len(dataset) * val_set_size)
 
@@ -92,7 +97,7 @@ def train(
         train_data = dataset.shuffle(seed=seed)
         val_data = None
 
-    print(train_data, val_data)
+    print(train_data, val_data, testset)
 
     # load model
     model = AutoModelForSequenceClassification.from_pretrained(
@@ -116,6 +121,7 @@ def train(
             per_device_train_batch_size = micro_batch_size,
             gradient_accumulation_steps = gradient_accumulation_steps,
             warmup_ratio                = 0.1,
+            # warmup_steps                = 200,
             num_train_epochs            = num_epochs,
             learning_rate               = learning_rate,
             fp16                        = fp16,
@@ -138,9 +144,14 @@ def train(
         callbacks=[EarlyStoppingCallback(early_stopping_patience=5)]
     )
     trainer.train()
+    # add test
+    print(testset)
+    predictions = trainer.predict(test_dataset=testset)
 
     tokenizer.save_pretrained(output_dir)
     model.save_pretrained(output_dir)
+    trainer.save_metrics(metrics = predictions.metrics, split='test')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some parameters.')
@@ -159,7 +170,7 @@ if __name__ == '__main__':
     parser.add_argument('--wandb_project', type=str, default='', help='Wandb project name')
     parser.add_argument('--wandb_run_name', type=str, default='', help='Wandb run name')
     parser.add_argument('--local_rank', type=int, default=-1, help="node rank")
-    
+
     args = parser.parse_args()
 
     train(
