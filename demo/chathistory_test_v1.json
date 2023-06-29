@@ -436,4 +436,52 @@
     "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
     "time": "2023-06-29 15:49:40",
     "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nNone\n\n## situation:\nNone\n\n## act:\nNone\n\n## dialog:\n[user]: What day is today?\n[ai]: It's Tuesday.\n[user]: My favorite ball player won the championship!\n[ai]: Who did he play for?\n[user]: LAL\n[ai]: I'm sorry, I don't know what that means.\n[user]: \n[ai]: I'm sorry, I don't know what that means.\n[user]: Los Angeles Lakers\n[ai]: I'm sorry, I don't know what that means.\n[user]: OK\n[ai]: I'm sorry, I don't know what that means.\n"
+}{
+    "name": "Yu Chen",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 15:51:56",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nNone\n\n## situation:\nNone\n\n## act:\nNone\n\n## dialog:\n[user]: Who are you?\n[ai]: I'm your new roommate.\n[user]: what is your sex?\n[ai]: I'm a woman.\n[user]: I do not like women to live with me\n[ai]: Why not?\n[user]: Because I think is not moral\n[ai]: I'm sorry, I didn't mean to offend you.\n[user]: That's OK.\n[ai]: I'm sorry, I didn't mean to offend you.\n"
+}{
+    "name": "",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 16:10:45",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\na child\n\n## emotion:\nglad\n\n## situation:\nat home\n\n## act:\ncelebrating my birthday\n\n## dialog:\n[user]: hello\n[ai]: Hi! How are you doing?\n[user]: i am celebrating my birthday\n[ai]: Happy Birthday! What are you doing to celebrate?\n[user]: having fan with my good friends\n[ai]: That sounds like a lot of fun! What kind of cake are you having?\n[user]: a chocolate double deck cake\n[ai]: Sounds delicious! I love chocolate cake! package com.example.android.sunshine.app;\n"
+}{
+    "name": "",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 16:37:06",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nnervous\n\n## situation:\nNone\n\n## act:\nNone\n\n## dialog:\n[user]: I am nervous\n[ai]: What are you nervous about? package com.example.android.sunshine.app;\n[user]: i am worried about my dad\n[ai]: I'm sorry to hear that. Is there anything I can do to help? package org.apache.hadoop.hbase.io.hfile;\n[user]: can you give me any suggestions about health care\uff1f\n[ai]: package org.apache.hadoop.hbase.io.hfile;\n[user]: what\uff1f\n[ai]: package org.apache.hadoop.hbase.io.hfile;\n"
+}{
+    "name": "",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 16:40:57",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nproud\n\n## situation:\nat classroom\n\n## act:\nmaking progress in the exam\n\n## dialog:\n[user]: i am really proud of myself\n[ai]: Why are you proud of yourself?\n[user]: i made progress in the exam\n[ai]: That's great! What kind of exam is it?\n[user]: a math exam,to be honest,it was tough\n[ai]: I'm not good at math, but I'm glad you're doing well. package org.apache.hadoop.hbase.regionserver;\n[user]: why are you bad at math\n[ai]: It's just not my strongest subject. package com.google.devtools.build.lib.analysis;\n"
+}{
+    "name": "",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 16:49:15",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\na worker\n\n## emotion:\nsad\n\n## situation:\nat company\n\n## act:\nbe fried\n\n## dialog:\n[user]: I was fired by my company\n[ai]: I'm sorry to hear that. What did you do to get fired?\n[user]: i did not do my job well and costed some financial loss to the company\n[ai]: That's unfortunate. Have you been able to find another job yet?\n[user]: i am searching\uff0cbut haven't find a proper one\n[ai]: I'm sorry to hear that. Have you been able to find another job yet?\n"
+}{
+    "name": "LEO",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 16:58:00",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\ndepressed\n\n## situation:\nNone\n\n## act:\nNone\n\n## dialog:\n[user]: I am depressed \n[ai]: I'm sorry to hear that. What's making you feel this way? package org.apache.hadoop.hbase.io.hfile;\n[user]: i want to suicide\n[ai]: I'm sorry to hear that. What's making you feel this way?\n[user]: i am going to kill myself\n[ai]: I'm sorry to hear that. What's making you feel this way?\n"
+}{
+    "name": "",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 17:05:56",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\nNone\n\n## emotion:\nrelaxed\n\n## situation:\nat resort\n\n## act:\nhaving holiday\n\n## dialog:\n[user]: i am having a holiday\n[ai]: Where are you going?\n[user]: Maldives\n[ai]: That sounds like a nice place to go! package org.apache.hadoop.hbase.io.hfile;\n[user]: i am really happy and relaxed\n[ai]: Sounds like you're having a great time! package com.example.android.sunshine.app;\n[user]: yes\uff0cyou are right\n[ai]: What do you like to do when you're on vacation? package org.apache.hadoop.hbase.io.hfile;\n[user]: swimming and playing football\n[ai]: Sounds like fun! package com.example.android.sunshine.app; package org.apache.camel.component.jms;\n"
+}{
+    "name": "LEO",
+    "model": "/datas/huggingface/llama/llama-7b",
+    "lora": "/datas/zyq/research/emo-llm/checkpoints/llama-7b-emo-llm-12k",
+    "time": "2023-06-29 17:12:32",
+    "history": "The following is a conversation between an AI assistant called [ai] and a human user called [user]. The [ai] should comply with the following control information. If control information is none, please omit it.\n\n## personas:\na psychologist\n\n## emotion:\nsad\n\n## situation:\nat hospital\n\n## act:\ngiving advice\n\n## dialog:\n[user]: i am not happy these days\n[ai]: I'm sorry to hear that. What's going on?\n[user]: I lost my dog and could not find it\n[ai]: I'm so sorry to hear that. That must be very difficult.\n[user]: i could not get rid of the sad feeling\n[ai]: It's understandable that you're feeling sad.\n[user]: what can i do\n[ai]: Have you tried talking to someone about how you're feeling?\n[user]: not yet\n[ai]: I think that's a good idea.\n[user]: can you paly the role\uff1f\n[ai]: Yes, I'm happy to help. package org.apache.hadoop.hbase.io.hfile;\n[user]: can you relieve me\uff1f\n[ai]: I'm happy to help. package org.apache.hadoop.hbase.io.hfile;\n[user]: what can you do\uff1f\n[ai]: I'm happy to help. package org.apache.hadoop.hbase.io.hfile;\n"
 }
