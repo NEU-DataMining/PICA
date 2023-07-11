@@ -6,23 +6,10 @@
 
 # PICA: A comprehensive language model with satisfying empathetical ability
 
-This project collected more than 30 data sets from five fields, including text sentiment analysis, dialogue sentiment analysis, personality dialogue generation, empathic dialogue, and emotion-reason pairs extraction. After comparison and screening, 23 of them were retained. Meanwhile, multi-task transformation was carried out on the data sets and 35 different versions of the data sets were finally obtained, which were used for training in five different tasks: Text emotion classification, dialogue emotion classification, emotion cause extraction, controllable dialogue generation, dialogue situation reasoning. And then with... as the base, pass the integrated dataset to the training phaze. Concretely, ... . The empathy task... Among other tasks,...
-We named the resulted modal PICA, which means magpie in Latin, because we hope the model can use empathic utterances to sweep out the haze over users, as if they come across inspiring magpies. This is what prompts us to pursuit our work.  
-
 ### Update
 
 &#x1F5D3; **2023.7.11** The data of a model finely tuned from a small number of self-built empathy datasets (Chinese) are published.
 
-&#x1F43E; **2023.6.29** The model obtained by the joint fine-tuning of multi-task data sets is realized, and the model effect is tested internally.
-
-### Quick Start
-
-Please follow the ensuing steps
-
-```
-bash emo_llm
-ssh victory/of/NEU-Data_Mining
-```
 ### Case Study
 
 1️⃣ test on consult of abstract problems
@@ -58,81 +45,3 @@ The model can identify the emotion accurately and give positive guidance.
 >当然可以！你已经迈出了第一步，相信自己能够实现目标。记住，成功需要坚持和努力。相信自己的能力，相信你所做出的决定，继续朝着自己的目标努力前进。相信自己，你一定能够取得好成绩！
 
 The model's understanding of events is not enough, and it remains at the level of word understanding (such as mechanical capture of the word economic burden, and then use the expression of "responsibility" to reply), there is a certain sense of violation, but it can highlight the characteristics of problem solving and empathy.
-
-### Presentation
-
-The following video shows the performance of our emo_LLM in application.
-
-### Dataset
-
-The data sets used include public data sets from various aspects in the field of sentiment analysis, and the final data set is obtained after screening, task-oriented transformation and format integration.
-
-#### Task-oriented Transformation
-
-The transformation details and the instructions.
-
-#### Integration
-
-All data sets are integrated into the following format.
-* 'task type' : type of training task to which they belong 
-* 'dataset' : name of the dataset used 
-* 'instruction': instruction
-* ' instances' : training sample 
-* 'is classification' : distinguish between generation tasks and classification tasks 
-* 'name' : the name of the task done by the specific data set
-
-### Task Description
-
-Emo-LLM is mainly trained in the following five tasks, for inspiration of language knowledge and empathic capacity:
-
-#### Text emotion classification
-
-In this task, given a text and candidate emotion labels, the model chooses the appropriate emotion label to get the ability to classify the emotion in the text.
-
-#### Dialogue emotion classification
-
-This task gives the historical conversation, the current conversation, the candidate emotion labels, and lets the model choose the appropriate emotion label so that the model can understand and recognize the emotion in the conversation.
-
-#### Emotion cause extraction
-
-In this task, given a text or dialogue, find the cause of emotion in it, help the model deeply understand the emotion in the sentence and its cause, and further improve the model's emotion analysis ability.
-
-#### Controllable dialogue generation
-
-This task gives a conversation history, gives control information, generates replies, and enables the model to generate the required conversations based on the control information.
-
-#### Dialogue situation inference
-
-This task gives a dialogue and deduces the background of the dialogue, so that the model can deduce the information of the dialogue based on the dialogue content and context, so as to improve the intelligent interaction effect of the dialogue system.
-
-### Training
-
-#### Training architecture and details
-
-#### Features
-
-* **Modular design of output:**
-* **Emotion and personality adaptation in iteration:**
-
-### Evaluation
-
-#### Baseline
-
-#### Result and analyse
-
-### Participants
-
-### Acknowledge
-
-### Citation
-
-```
-@misc{    ,
-      title={   },
-      author={   },
-      year={2023},
-      eprint={   },
-      archivePrefix={arXiv},
-      primaryClass={    }
-}
-```
