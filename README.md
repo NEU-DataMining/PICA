@@ -47,7 +47,9 @@
 ###### PICA:
 >当然可以！你已经迈出了第一步，相信自己能够实现目标。记住，成功需要坚持和努力。相信自己的能力，相信你所做出的决定，继续朝着自己的目标努力前进。相信自己，你一定能够取得好成绩！
 
-## ✊项目贡献者
+## ✊项目致谢
+本项目由[东北大学数据挖掘实验室](https://github.com/NEU-DataMining/)发起。
+### 主要贡献者
 张逸群[@张逸群](https://github.com/ZhangYiqun018)、张景晴[@张景晴](https://github.com/JingqingZh)、刘永康、高崇运[@高崇运](https://github.com/blazingwaysforward)
 ## ⏰引用
 如果使用本项目的代码、数据或者模型，请引用本项目。
