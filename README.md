@@ -47,3 +47,14 @@
 ###### PICA:
 >当然可以！你已经迈出了第一步，相信自己能够实现目标。记住，成功需要坚持和努力。相信自己的能力，相信你所做出的决定，继续朝着自己的目标努力前进。相信自己，你一定能够取得好成绩！
 
+## 引用
+```
+@misc{zhang2023PICA,
+      title={多轮对话共情大模型PICA},
+      author={Yiqun Zhang, Jingqing Zhang, Yongkang Liu, Chongyun Gao, Daling Wang, Shi Feng, Yifei Zhang},
+      year={2023},
+      month={7},
+      version={1.0},
+      url={https://github.com/NEU-DataMining/PICA}
+}
+```
