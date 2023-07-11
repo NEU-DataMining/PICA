@@ -50,7 +50,7 @@
 ## ✊项目致谢
 本项目由[东北大学数据挖掘实验室](https://github.com/NEU-DataMining/)发起。
 ### 主要贡献者
-张逸群[@张逸群](https://github.com/ZhangYiqun018)、张景晴[@张景晴](https://github.com/JingqingZh)、刘永康、高崇运[@高崇运](https://github.com/blazingwaysforward)
+张逸群[@张逸群](https://github.com/ZhangYiqun018)、张景晴[@张景晴](https://github.com/JingqingZh)、刘永康[@刘永康](https://github.com/misonsky)、高崇运[@高崇运](https://github.com/blazingwaysforward)
 ## ⏰引用
 如果使用本项目的代码、数据或者模型，请引用本项目。
 ```
