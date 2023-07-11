@@ -5,13 +5,15 @@
 </p>
 
 # PICA: A comprehensive language model with satisfying empathetical ability
+## 模型介绍
+开源多轮共情对话模型PICA（喜鹊）。
 
-
-### 更新 
+权重下载: [https://huggingface.co/NEUDM/PICA-V1](https://huggingface.co/NEUDM/PICA-V1)
+## 更新 
 
 &#x1F5D3; **2023.7.11** 公布了由少量自建共情数据集（中文）精调得到的模型的权重(P-Tuning V2 weights)
 
-### 案例分析
+## 案例分析
 
 1️⃣ 对抽象问题咨询的测试
 
