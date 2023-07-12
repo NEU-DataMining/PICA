@@ -51,6 +51,8 @@
 本项目由[东北大学数据挖掘实验室](https://github.com/NEU-DataMining/)建立。
 ### 主要贡献者
 张逸群[@张逸群](https://github.com/ZhangYiqun018)、张景晴[@张景晴](https://github.com/JingqingZh)、刘永康[@刘永康](https://github.com/misonsky)、高崇运[@高崇运](https://github.com/blazingwaysforward)
+
+王明、徐兴乐、蔡铭修、武艺杰、颜季辉、张怀文、陈煜
 ## ⏰引用
 ```
 @misc{zhang2023PICA,
