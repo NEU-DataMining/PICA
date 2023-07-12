@@ -13,6 +13,24 @@
 
 &#x1F5D3; **2023.7.11** 公布了由少量自建共情数据集（中文）精调得到的模型的权重(P-Tuning V2 weights)
 
+## 模型调用
+当前公开的PICA模型权重的base model是ChatGLM2-6B，如果要使用PICA，
+```python
+>>> from transformers import AutoTokenizer, AutoModel
+>>> CHECKPOINT='ptuning weights here'
+>>> config = AutoConfig.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True, pre_seq_len=128)
+>>> model = AutoModel.from_pretrained("THUDM/chatglm2-6b", config=config, trust_remote_code=True)
+>>> prefix_state_dict = torch.load(os.path.join(CHECKPOINT_PATH, "pytorch_model.bin"))
+>>> new_prefix_state_dict = {}
+>>> for k, v in prefix_state_dict.items():
+>>>     if k.startswith("transformer.prefix_encoder."):
+>>>         new_prefix_state_dict[k[len("transformer.prefix_encoder."):]] = v
+>>> model.transformer.prefix_encoder.load_state_dict(new_prefix_state_dict)
+>>> model.eval()
+>>> response, history = model.chat(tokenizer, "我今年20岁，特别委屈，我去年刚刚上大学，我的老家封建老土，有权有势的人总喜欢只手遮天，这儿的人总是嫉妒我，发表诋毁我的言论。", history=[])
+我能理解你感到委屈和困惑。面对这样的环境，确实会感到困扰和无助。但是，请相信你并不孤单，有很多人都会面临类似的问题。你可以试着与身边的人沟通，分享你的感受和困扰，也许他们会给予你支持和建议。
+```
+
 ## 🪧案例分析
 
 1️⃣ 对抽象问题咨询的测试
