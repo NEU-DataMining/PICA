@@ -6,9 +6,10 @@
 
 # 🐦‍🔥PICA: Unleashing The Emotional Power of Large Language Model
 ## 💡模型介绍
-开源多轮共情对话模型PICA（喜鹊）。
+多轮共情对话模型PICA（喜鹊）。
 
-权重下载: [https://huggingface.co/NEUDM/PICA-V1](https://huggingface.co/NEUDM/PICA-V1)
+目前开源了基于P-tuning v2微调的模型权重：
+[https://huggingface.co/NEUDM/PICA-V1](https://huggingface.co/NEUDM/PICA-V1)
 ## ⌛更新 
 
 &#x1F5D3; **2023.7.11** 公布了由少量自建共情数据集（中文）精调得到的模型的权重(P-Tuning V2 weights)
