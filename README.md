@@ -74,7 +74,7 @@
 ### 主要贡献者
 张逸群[@张逸群](https://github.com/ZhangYiqun018)、张景晴[@张景晴](https://github.com/JingqingZh)、刘永康[@刘永康](https://github.com/misonsky)、高崇运[@高崇运](https://github.com/blazingwaysforward)
 
-王明、徐兴乐、蔡铭修、武艺杰、颜季辉、张怀文、陈煜
+王明、徐兴乐、蔡铭修、武艺杰、颜季辉、张怀文、陈煜、徐鹏远、孔繁恒、高泽然、周呈星
 ## ⏰引用
 ```
 @misc{zhang2023PICA,
