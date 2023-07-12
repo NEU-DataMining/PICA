@@ -13,7 +13,7 @@
 
 当前使用的训练数据集：
 + 基于[self-chat](https://github.com/ZhangYiqun018/self-chat)方法，由ChatGPT生成的约1K条中文多轮对话数据
-+ 基于[PsyQA](https://github.com/thu-coai/PsyQA)数据集，由改造的约1K条中文多轮对话数据
++ 基于[PsyQA](https://github.com/thu-coai/PsyQA)数据集，由ChatGPT改造的约1K条中文多轮对话数据
 
 ## ⌛更新 
 
