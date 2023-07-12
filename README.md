@@ -4,7 +4,7 @@
 <a href="https://github.com/NEU-DataMining/Emo-LLM" target="_blank"><img src="logo.png" alt="EMO_LLM" style="width: 35%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-# 🐦‍🔥PICA: A comprehensive language model with satisfying empathetical ability
+# 🐦‍🔥PICA: Unleashing The Emotional Power of Large Language Model
 ## 💡模型介绍
 开源多轮共情对话模型PICA（喜鹊）。
 
