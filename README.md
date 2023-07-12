@@ -1,7 +1,7 @@
 [**中文**](./README.md) | [**English**](./README_EN.md)
 
 <p align="center" width="100%">
-<a href="https://github.com/NEU-DataMining/Emo-LLM" target="_blank"><img src="logo.png" alt="EMO_LLM" style="width: 35%; min-width: 300px; display: block; margin: auto;"></a>
+<a href="https://github.com/NEU-DataMining/Emo-LLM" target="_blank"><img src="./figure/logo2.jpg" alt="EMO_LLM" style="width: 35%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 # 🐦‍🔥PICA: Unleashing The Emotional Power of Large Language Model
