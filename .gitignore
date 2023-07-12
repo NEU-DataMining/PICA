@@ -18,3 +18,7 @@ to
 /evaluate/llama-7b-emo-llm-8k
 /evaluate/llama-7b-emo-llm-3k
 /evaluate/23.6.10
+emo_llm
+baseline
+infer.sh
+废弃
