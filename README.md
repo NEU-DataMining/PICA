@@ -27,7 +27,9 @@
 >>>         new_prefix_state_dict[k[len("transformer.prefix_encoder."):]] = v
 >>> model.transformer.prefix_encoder.load_state_dict(new_prefix_state_dict)
 >>> model.eval()
->>> response, history = model.chat(tokenizer, "我今年20岁，特别委屈，我去年刚刚上大学，我的老家封建老土，有权有势的人总喜欢只手遮天，这儿的人总是嫉妒我，发表诋毁我的言论。", history=[])
+>>> response, history = model.chat(tokenizer, "我今年20岁，特别委屈，我去年刚刚上大学，\
+      我的老家封建老土，有权有势的人总喜欢只手遮天，这儿的人总是嫉妒我，发表诋毁我的言论。",
+      history=[])
 我能理解你感到委屈和困惑。面对这样的环境，确实会感到困扰和无助。
 但是，请相信你并不孤单，有很多人都会面临类似的问题。
 你可以试着与身边的人沟通，分享你的感受和困扰，也许他们会给予你支持和建议。
