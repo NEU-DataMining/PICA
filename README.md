@@ -6,10 +6,15 @@
 
 # 🐦‍🔥PICA: Unleashing The Emotional Power of Large Language Model
 ## 💡模型介绍
-多轮共情对话模型PICA（喜鹊）。
+传统语言模型可以很好的扮演“助手”角色，但缺乏情感上的参与度，较长的建议性回复往往难以与用户的共情，为了解决这个问题，我们提出了多轮对话语言模型PICA，一个具有共情和情感共鸣的能力的对话机器人。
 
-目前开源了基于P-tuning v2微调的模型权重：
+目前开源了基于P-tuning微调的模型权重：
 [https://huggingface.co/NEUDM/PICA-V1](https://huggingface.co/NEUDM/PICA-V1)
+
+当前使用的训练数据集：
++ 基于Self-chat方法，由ChatGPT生成的约1K条中文多轮对话数据
++ 基于PsyQA数据集，由改造的约1K条中文多轮对话数据
+
 ## ⌛更新 
 
 &#x1F5D3; **2023.7.11** 公布了由少量自建共情数据集（中文）精调得到的模型的权重(P-Tuning V2 weights)
@@ -84,7 +89,7 @@
 ## ⏰引用
 ```
 @misc{zhang2023PICA,
-      title={多轮对话共情大模型PICA},
+      title={PICA: Unleashing The Emotional Power of Large Language Model},
       author={Yiqun Zhang, Jingqing Zhang, Yongkang Liu, Chongyun Gao, Daling Wang, Shi Feng, Yifei Zhang},
       year={2023},
       month={7},
