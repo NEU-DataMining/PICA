@@ -6,7 +6,7 @@
 
 # 🐦‍🔥PICA: Unleashing The Emotional Power of Large Language Model
 ## 💡模型介绍
-传统语言模型可以很好的扮演“助手”角色，但缺乏情感上的参与度，较长的建议性回复往往难以与用户的共情，为了解决这个问题，我们提出了多轮对话语言模型PICA，一个具有共情和情感共鸣的能力的对话机器人。
+传统语言模型可以很好的扮演“助手”角色，但缺乏情感上的参与度，较长的建议性回复往往难以与用户的共情，为了解决这个问题，我们提出了多轮对话语言模型PICA，一个具有共情和情感共鸣的能力对话机器人。
 
 目前开源了基于P-tuning微调的模型权重：
 [https://huggingface.co/NEUDM/PICA-V1](https://huggingface.co/NEUDM/PICA-V1)
