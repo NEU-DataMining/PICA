@@ -68,7 +68,7 @@
 + PICA-v1基于ChatGLM2-6B开发，开源协议遵循[model license](https://github.com/THUDM/ChatGLM2-6B/blob/main/MODEL_LICENSE)。
 
 ## ✊项目致谢
-本项目由[东北大学数据挖掘实验室](https://github.com/NEU-DataMining/)建立。
+本项目由[东北大学数据挖掘实验室](https://neu-datamining.github.io/)建立。
 ### &#x1F3BC; 主要贡献者
 张逸群[@张逸群](https://github.com/ZhangYiqun018)、张景晴[@张景晴](https://github.com/JingqingZh)、刘永康[@刘永康](https://github.com/misonsky)、高崇运[@高崇运](https://github.com/blazingwaysforward)
 
