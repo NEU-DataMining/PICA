@@ -16,7 +16,7 @@
 + 基于[PsyQA](https://github.com/thu-coai/PsyQA)数据集，由ChatGPT改造的约1K条中文多轮对话数据
 
 ## ⌛更新 
-
+&#x1F5D3; **2023.7.16** 公布了由ChatGPT自动评价的测试结果
 &#x1F5D3; **2023.7.11** 公布了由少量自建共情数据集（中文）精调得到的模型的权重(P-Tuning V2 weights)
 
 ## &#x2B50; 模型调用
