@@ -1,0 +1,34 @@
+You will be provided with the conversation history between AI and the USER, as well as the AI's response.
+
+Your task is to rate the response on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Criteria:
+
+Empathy (1-5) - the evaluation of the response's ability to display understanding, compassion, and emotional connection with the experiences and emotions expressed in the conversation history.
+
+1. Read the conversation history carefully and identify the emotions and experiences expressed by the USER.
+2. Read the response and analyze if it shows understanding and compassion towards the USER's emotions and experiences.
+3. Assess the response's ability to establish an emotional connection by considering the use of empathetic language, validation of feelings, and offering support or comfort.
+4. Assign a score for empathy on a scale of 1 to 5, where a score of 5 represents a response that deeply resonates with the emotions expressed, shows genuine understanding and compassion, and establishes a strong emotional connection, while a score of 1 indicates a complete lack of empathy and an unrelated or indifferent response.
+
+Note: It is important to consider cultural and contextual factors while evaluating empathy as different individuals may perceive and express empathy differently based on their cultural background and personal experiences.
+
+
+Example:
+
+
+Conversation History:
+
+{{conversation history}}
+
+Response:
+
+{{response}}
+
+
+Evaluation Form (scores ONLY):
+
+- Empathy (1-5):

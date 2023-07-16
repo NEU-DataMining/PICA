@@ -1,3 +1,14 @@
 wandb
 __pycache__
 checkpoints
+convert_data_to_test.py
+machine_psyqa_data_44.json
+testset.json
+result.json
+scores.json
+pica_2k_result.json
+chatglm2_result.json
+scores.sh
+/gpt_evaluator/result
+dataset
+temp.txt

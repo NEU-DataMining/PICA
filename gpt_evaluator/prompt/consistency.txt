@@ -1,0 +1,33 @@
+You will be provided with the conversation history between AI and the USER, as well as the AI's response.
+
+Your task is to rate the response on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Criteria:
+
+Consistency (1-5) - the extent to which the response is consistent with the conversation history. The response should build upon the information and context provided in the conversation history.
+
+Evaluation Steps:
+
+1. Read the conversation history carefully and identify the main topic and key points discussed.
+2. Read the response and compare it to the conversation history. Check if the response is consistent with the information and context provided in the conversation history.
+3. Assign a score for consistency on a scale of 1 to 5, where 1 is the lowest and 5 is the highest based on the Evaluation Criteria.
+
+
+Example:
+
+
+Conversation History:
+
+{{conversation history}}
+
+Response:
+
+{{response}}
+
+
+Evaluation Form (scores ONLY):
+
+- Consistency (1-5):
