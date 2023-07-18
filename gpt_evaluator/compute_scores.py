@@ -75,8 +75,8 @@ if __name__ == '__main__':
     # time.sleep(100)
 
     fp = open(os.path.join('result', args.output_path), 'a', encoding='utf-8')
-    scores = 0
-    count = 0
+    total_scores = 0
+    total_count = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
         futures = [
             executor.submit(
@@ -90,25 +90,26 @@ if __name__ == '__main__':
             for future, data in zip(concurrent.futures.as_completed(futures), dataset):
                 try:
                     data['scores'] = future.result()
-                    scores += data['scores']
-                    count += 1
+                    total_scores += data['scores']
+                    total_count += 1
                     fp.write(
                         json.dumps(data, ensure_ascii=False) + '\n'
                     )
                     pbar.update(1)
+                    pbar.set_postfix({f'{args.type.upper()} Average Score': total_scores/total_count})
                 except Exception as e:
                     print(e)
                     pbar.update(1)
 
     print(f'{args.data_path}')
-    print(f'{args.type} scores: {scores / count}')
+    print(f'{args.type} score: {total_scores / total_count}')
 
     with open('./result/result.json', 'a') as w:
         w.write(
             json.dumps({
                 'data': args.data_path,
                 'type': args.type,
-                'score': scores / count
+                'score': total_scores / total_count
             }, ensure_ascii=False) + '\n'
         )
 

@@ -12,3 +12,5 @@ scores.sh
 /gpt_evaluator/result
 dataset
 temp.txt
+infer_soulchat.py
+infer.sh
