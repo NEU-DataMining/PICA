@@ -77,7 +77,7 @@ def answer(user_history, bot_history, sample=True, top_p=0.75, temperature=0.95)
 @st.cache_resource
 def load_model():
     config = AutoConfig.from_pretrained("/hy-tmp/chatglm2-6b", trust_remote_code=True, pre_seq_len=128)
-    model = AutoModel.from_pretrained("/hy-tmp/chatglm2-6b", config=config, trust_remote_code=True)
+    model = AutoModel.from_pretrained("/hy-tmp/chatglm2-6b", config=config, trust_remote_code=True).half().quantize(4)
     CHECKPOINT_PATH = '/hy-tmp/PICA-V1'
     prefix_state_dict = torch.load(os.path.join(CHECKPOINT_PATH, "pytorch_model.bin"))
     new_prefix_state_dict = {}
@@ -145,7 +145,7 @@ if __name__ == "__main__":
 
     with st.container():
         st.text_area(label="请在下列文本框输入您的咨询内容：", value="",
-                     placeholder="请输入您的求助内容，并且点击Ctrl+Enter(或者发送按钮)确认内容", key="user_input", on_change=get_text)
+                     placeholder="请输入您的求助内容，并且点击Ctrl+Enter发送信息", key="user_input", on_change=get_text)
 
     if st.button("清理对话缓存"):
         st.session_state.generated = []
