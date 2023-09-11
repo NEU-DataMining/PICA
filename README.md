@@ -24,9 +24,13 @@
 当前公开的PICA模型权重的base model是ChatGLM2-6B，如果要使用PICA，可以参考下面的代码：
 ```python
 >>> from transformers import AutoTokenizer, AutoModel
+>>> import torch
+>>> device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 >>> CHECKPOINT='ptuning weights here'
 >>> config = AutoConfig.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True, pre_seq_len=128)
 >>> model = AutoModel.from_pretrained("THUDM/chatglm2-6b", config=config, trust_remote_code=True)
+>>> model.to(device)
+>>> tokenizer = AutoModel.from_pretrained("THUDM/chatglm2-6b", trust_remote_code=True)
 >>> prefix_state_dict = torch.load(os.path.join(CHECKPOINT_PATH, "pytorch_model.bin"))
 >>> new_prefix_state_dict = {}
 >>> for k, v in prefix_state_dict.items():
