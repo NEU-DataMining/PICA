@@ -104,7 +104,7 @@ if __name__ == '__main__':
     print(f'{args.data_path}')
     print(f'{args.type} score: {total_scores / total_count}')
 
-    with open('./result/result.json', 'a') as w:
+    with open('./result/result.json', 'a', encoding="utf-8") as w:
         w.write(
             json.dumps({
                 'data': args.data_path,
